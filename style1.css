@@ -37,3 +37,17 @@ header {
     margin-bottom: 16px;
 }
 
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+section {
+    padding: 80px;
+}
+
