@@ -87,3 +87,17 @@ section {
     .btn:hover {
         background: #7dd3fc;
     }
+
+    .section-title {
+        font-size: 32px;
+        margin-bottom: 25px;
+        color: #38bdf8;
+    }
+ 
+    .skills, .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+    }
+
+    
