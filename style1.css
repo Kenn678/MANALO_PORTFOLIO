@@ -51,3 +51,22 @@ section {
     padding: 80px;
 }
 
+.home {
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .home h1 {
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+
+    .home h2 {
+        color: #38bdf8;
+    }
+
+    .home p, .about p {
+        color: #cbd5e1;
+    }
