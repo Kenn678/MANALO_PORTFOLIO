@@ -183,4 +183,47 @@ section {
         cursor: pointer;
     }
 
+     html {
+        scroll-behavior: smooth;
+
+    }
+    section {
+    scroll-margin-top: 80px;  
+
+    }
+
+    .contact p {
+        margin: 10px 0;
+        color: #cbd5e1;
+    }
+
+    footer {
+        text-align: center;
+        padding:25px;
+        background: #111c32;
+    }
+
+    @media (max-width: 600px) {
+        header {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav a {
+        margin:0 6px;
+        font-size: 14px;
+    }
+    
+    .home h1 {
+        font-size: 34px;
+    }
+
+    section {
+        padding: 55px 6%;
+       }
+    }
+
+
+
+
     
